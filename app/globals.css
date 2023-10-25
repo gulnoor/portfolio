@@ -91,10 +91,14 @@ main {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #e96443; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #904e95, #e96443), #e96443; /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #904e95, #e96443), #e96443; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  backdrop-filter: blur(80px);
+  background: rgb(103, 80, 164);
+  background: linear-gradient(
+    176deg,
+    rgba(103, 80, 164, 1) 0%,
+    rgba(149, 141, 165, 1) 49%,
+    rgba(181, 131, 146, 1) 100%
+  );
+  backdrop-filter: brightness(0.5);
 }
 
 a {
