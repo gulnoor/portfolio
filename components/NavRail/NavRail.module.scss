@@ -1,0 +1,14 @@
+.navrail{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100px;
+}
+.navrail_ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
