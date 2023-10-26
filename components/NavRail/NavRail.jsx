@@ -18,7 +18,7 @@ const NavRail = () => {
           </Link>
         </li>
         <li>
-          <Link href={"/"} className={styles.navlink}>
+          <Link href={"/about-me"} className={styles.navlink}>
           <Image
               src={"/assets/icons/article_FILL0_wght400_GRAD0_opsz24.svg"}
               alt="home icon"
@@ -28,7 +28,7 @@ const NavRail = () => {
           </Link>
         </li>
         <li>
-          <Link href={"/"} className={styles.navlink}>
+          <Link href={"/contact"} className={styles.navlink}>
           <Image
               src={"/assets/icons/mail_FILL0_wght400_GRAD0_opsz24.svg"}
               alt="home icon"
