@@ -15,13 +15,13 @@ const AppLayout = ({ children }) => {
         palette: {
           mode: theme,
           primary: {
-            main: theme === "light" ? "#705d00" : "#e9c400",
+            main: theme === "light" ? "#6750A4" : "#D0BCFF",
             // light: will be calculated from palette.primary.main,
             // dark: will be calculated from palette.primary.main,
             // contrastText: will be calculated to contrast with palette.primary.main
           },
           secondary: {
-            main: theme === "light" ? "#675e40" : "#d2c6a1",
+            main: theme === "light" ? "#625B71" : "#CCC2DC",
           },
           error: {
             main: theme === "light" ? "#ba1a1a" : "#ffb4ab",
@@ -46,6 +46,8 @@ const AppLayout = ({ children }) => {
                 style: {
                   borderRadius: "100vh",
                   minHeight: "48px",
+                  boxSizing: "border-box",
+                  borderWidth: "2px",
                 },
               },
             ],
@@ -55,14 +57,12 @@ const AppLayout = ({ children }) => {
     [theme]
   );
   return (
-    <>
-
-        <MUIProvider theme={MUItheme}>
-          <NavRail />
-          <ContextPanel>{children}</ContextPanel>
-        </MUIProvider>
-
-    </>
+    <div className={`${theme}`}>
+      <MUIProvider theme={MUItheme}>
+        <NavRail />
+        <ContextPanel>{children}</ContextPanel>
+      </MUIProvider>
+    </div>
   );
 };
 

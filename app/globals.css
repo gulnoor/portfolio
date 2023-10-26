@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Material Symbols Outlined";
   font-style: normal;
@@ -663,7 +664,7 @@ a {
   background-color: var(--md-sys-color-surface-container);
   border-radius: 32px;
   width: 100%;
-  padding: 32px;
+  padding: 48px;
 }
 
 @media (prefers-color-scheme: dark) {

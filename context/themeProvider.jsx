@@ -1,10 +1,13 @@
+"use client";
 import { createContext, useEffect, useState } from "react";
 
 export const ThemeContext = createContext(null);
 
 const ThemeProvider = ({ children }) => {
-  if (!window.localStorage.getItem("theme")) {
-    window.localStorage.setItem("theme", "dark");
+  if ( typeof window !== undefined) {
+    if (!window.localStorage.getItem("theme")) {
+      window.localStorage.setItem("theme", "dark");
+    }
   }
   const [theme, setTheme] = useState(window.localStorage.getItem("theme"));
   const toggleTheme = () => {
