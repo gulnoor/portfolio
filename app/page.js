@@ -1,7 +1,8 @@
+import styles from "./page.module.css"
 export default function Home() {
   return (
-      <section>
-        theme
+      <section className="pageContainer">
+        HomePage
       </section>
   );
 }
