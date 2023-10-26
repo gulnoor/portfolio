@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang="en">
-        <body className={inter.className}>
+        <body className={`dark ${inter.className}`}>
           <AppLayout>{children}</AppLayout>
         </body>
       </html>
