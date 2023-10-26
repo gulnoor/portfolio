@@ -1,7 +1,6 @@
 .container {
   display: flex;
   background-color: rgba(255, 255, 255, 0.074);
-  //   backdrop-filter: blur(100px);
   position: absolute;
   margin-left: 100px;
   width: calc(100% - 100px);
@@ -10,5 +9,5 @@
   padding: 8px;
 }
 .contextContainer {
-  width: 30%;
+  width: 40%;
 }
