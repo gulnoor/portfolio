@@ -12,9 +12,10 @@ import typography from "@/material-theme/typography.module.css";
 import play from "@/public/assets/icons/play_arrow_FILL1_wght400_GRAD0_opsz24.svg";
 
 // import required modules
-import { EffectCards } from "swiper/modules";
+import { EffectCards, Pagination } from "swiper/modules";
 import { Button } from "@mui/material";
 const PanelContent = ({ path }) => {
+  
   switch (path) {
     case "/":
       return (
@@ -50,7 +51,7 @@ const PanelContent = ({ path }) => {
               <SwiperSlide>Slide 2</SwiperSlide>
               <SwiperSlide>Slide 3</SwiperSlide>
             </Swiper>
-            <Button
+            {/* <Button
               variant="contained"
               sx={{
                 width: "52px",
@@ -60,7 +61,7 @@ const PanelContent = ({ path }) => {
             >
               {" "}
               <Image alt="play button "src={play} />
-            </Button>
+            </Button> */}
           </div>
 
           {/* <Image
