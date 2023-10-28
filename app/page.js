@@ -3,9 +3,7 @@ import typography from "@/material-theme/typography.module.css";
 import { Button } from "@mui/material";
 import styles from "./page.module.css";
 export default function Home() {
-  const headingStyle = {
 
-  };
   return (
     <section
       className="pageContainer animate__animated animate__bounceInRight "
@@ -22,10 +20,10 @@ export default function Home() {
         <h1 className={`${typography.displayLarge} ${styles.heading}`} >
           Hi,
         </h1>
-        <h2 className={`${typography.displayLarge} ${styles.heading}`} style={headingStyle} >
+        <h2 className={`${typography.displayLarge} ${styles.heading}`} >
           I&apos;m Gul Noor
         </h2>
-        <h1 className={`${typography.displayLarge} ${styles.heading}`} style={headingStyle}>
+        <h1 className={`${typography.displayLarge} ${styles.heading}`} >
           Front End Developer
         </h1>
         <Button
