@@ -25,7 +25,9 @@ const PanelContent = ({ path }) => {
           >
             My Projects
           </h1>
-          <div className={`${styles.MusicPlayer} animate__animated animate__fadeIn` }>
+          <div
+            className={`${styles.MusicPlayer} animate__animated animate__fadeIn`}
+          >
             <Swiper
               effect={"cards"}
               grabCursor={true}
@@ -33,7 +35,8 @@ const PanelContent = ({ path }) => {
               className="mySwiper"
             >
               <SwiperSlide>
-                <a target="_blank"
+                <a
+                  target="_blank"
                   href="https://tailwind--polite-salmiakki-cafa96.netlify.app/"
                   style={{
                     display: "flex",

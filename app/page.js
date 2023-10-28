@@ -19,7 +19,7 @@ export default function Home() {
       <div
         className={`${styles.wrapper} animate__animated animate__fadeInDown animate__delay-1s animate__faster`}
       >
-        <h1 className={`${typography.displayLarge} ${styles.heading}`} style={headingStyle}>
+        <h1 className={`${typography.displayLarge} ${styles.heading}`} >
           Hi,
         </h1>
         <h2 className={`${typography.displayLarge} ${styles.heading}`} style={headingStyle} >

@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "Material Symbols Outlined";
   font-style: normal;
@@ -638,9 +637,14 @@ main {
 }
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #4158D0;
-  background-image: linear-gradient(135deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-  
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    135deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
   backdrop-filter: brightness(0.5);
   /* background-size: 400% 100%;
 
@@ -665,13 +669,13 @@ body {
   font-weight: bold;
   color: #fff;
 }
-.mySwiper .swiper-slide{
+.mySwiper .swiper-slide {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .swiper-slide:nth-child(1n) {
-  background-color:var(--md-sys-color-surface-container-highest-light);
+  background-color: var(--md-sys-color-surface-container-highest-light);
 }
 
 .swiper-slide:nth-child(2n) {
@@ -723,23 +727,16 @@ a {
   width: 70%;
   padding: 48px;
 }
-@media screen and (max-width:600px) {
-  .pageContainer{
+@media screen and (max-width: 600px) {
+  .pageContainer {
     order: 1;
     padding: 22px;
   }
-  
-
 }
-@media screen and (max-width:840px) {
-  .pageContainer{
+@media screen and (max-width: 840px) {
+  .pageContainer {
     width: 100%;
-    
-    
-
   }
-  
-
 }
 @media (prefers-color-scheme: dark) {
   html {
