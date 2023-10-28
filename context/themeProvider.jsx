@@ -4,7 +4,7 @@ import { createContext, useEffect, useState } from "react";
 export const ThemeContext = createContext(null);
 
 const ThemeProvider = ({ children }) => {
-  if ( typeof window !== undefined) {
+  if ( typeof window !== "undefined") {
     if (!window.localStorage.getItem("theme")) {
       window.localStorage.setItem("theme", "dark");
     }

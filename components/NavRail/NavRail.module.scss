@@ -20,6 +20,7 @@
   width: 100%;
   margin: 16px 0;
   color: var(--md-sys-color-on-surface-dark);
+  font-size: 14px;
 }
 .navlink {
   display: flex;
@@ -33,6 +34,9 @@
   width: 50%;
   filter: invert(80%) sepia(9%) saturate(214%) hue-rotate(0deg) brightness(103%)
     contrast(81%);
+  &:hover {
+    scale: 1.2;
+  }
 }
 .toggle {
   margin-top: auto;

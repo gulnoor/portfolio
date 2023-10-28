@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 export default function Home() {
   const headingStyle = {
     fontWeight: "800",
+    fontSize: "68px",
     color: "var(--md-sys-color-on-surface)",
     marginBottom: "8px",
   };
@@ -18,9 +19,9 @@ export default function Home() {
         alignItems: "center",
       }}
     >
-      <div className={`${styles.wrapper} `}>
+      <div className={`${styles.wrapper} animate__animated animate__fadeInDown animate__delay-1s animate__faster`}>
         <h1
-          className={`${typography.displayLarge} animate__animated animate__fadeInDown animate__delay-1s`}
+          className={`${typography.displayLarge} `}
           style={headingStyle}
         >
           Hi,
