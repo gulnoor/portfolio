@@ -4,7 +4,6 @@ import styles from "./ContextPanel.module.scss";
 import { ThemeContext } from "@/context/themeProvider";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
-import displayPicture from "./A8265B34-D098-4026-8C25-AED54DFDBCBE.jpeg";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import { Swiper, SwiperSlide } from "swiper/react";

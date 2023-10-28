@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavRail from "@/components/NavRail/NavRail";
+
 import AppLayout from "./AppLayout";
-import Script from "next/script";
+
 import ThemeProvider from "@/context/themeProvider";
 
 const inter = Inter({ subsets: ["latin"] });

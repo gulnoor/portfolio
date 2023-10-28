@@ -716,13 +716,31 @@ a {
 }
 
 .pageContainer {
-  /* display: flex; */
+  display: flex;
+  flex: 1;
   background-color: var(--md-sys-color-surface-container-highest);
   border-radius: 32px;
-  width: 100%;
+  width: 70%;
   padding: 48px;
 }
+@media screen and (max-width:600px) {
+  .pageContainer{
+    order: 1;
+    padding: 22px;
+  }
+  
 
+}
+@media screen and (max-width:840px) {
+  .pageContainer{
+    width: 100%;
+    
+    
+
+  }
+  
+
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

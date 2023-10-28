@@ -7,7 +7,11 @@
   border-radius: 32px 0 0 32px;
   padding: 8px;
   background-color: rgba(255, 255, 255, 0.125);
+  overflow-y: scroll;
+  overflow-x: hidden;
+
 }
+
 .contextContainer {
   display: flex;
   flex-direction: column;
@@ -16,27 +20,44 @@
   justify-content: center;
 
 }
-.dp{
+
+.dp {
   object-fit: cover;
   width: 80%;
   height: auto;
- 
+
   border-radius: 999px;
   filter: grayscale(1);
 }
 
-.MusicPlayer{
+.MusicPlayer {
   display: flex;
   flex-direction: column;
-  width: 90%;
-  padding: 16px;
+  width: 100%;
+  /* padding: 16px; */
   border-radius: 32px;
   background-color: #ffffff20;
-
-
 }
-.lemon{
+.lemon {
   width: 60%;
   object-fit: cover;
   height: auto;
+}
+@media screen and (max-width: 841px) {
+  .container {
+    margin-left: 0;
+    width: 100%;
+    border-radius: 0;
+    flex-direction: column;
+    background: none;
+  }
+  .contextContainer{
+    width: 100%;
+  }
+  .contextContainer {
+    order: 2;
+  }
+}
+@media screen and (max-width: 600px) {
+
 }

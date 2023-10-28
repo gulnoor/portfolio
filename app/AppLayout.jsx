@@ -2,7 +2,7 @@
 
 import ContextPanel from "@/components/ContextPanel/ContextPanel";
 import NavRail from "@/components/NavRail/NavRail";
-import ThemeProvider, { ThemeContext } from "@/context/themeProvider";
+import  { ThemeContext } from "@/context/themeProvider";
 import { createTheme } from "@mui/material";
 import { useContext, useMemo } from "react";
 import { ThemeProvider as MUIProvider } from "@mui/material";
