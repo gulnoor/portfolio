@@ -26,7 +26,7 @@ const PanelContent = ({ path }) => {
           >
             My Projects
           </h1>
-          <div className={styles.MusicPlayer}>
+          <div className={`${styles.MusicPlayer} animate__animated animate__fadeIn` }>
             <Swiper
               effect={"cards"}
               grabCursor={true}
