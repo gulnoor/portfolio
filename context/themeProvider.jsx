@@ -5,7 +5,7 @@ export const ThemeContext = createContext(null);
 
 const ThemeProvider = ({ children }) => {
 
-  const getTheme = ()=>{
+  function getTheme(){
     if (typeof window!== "undefined" && !window.localStorage.getItem("theme")){
       window.localStorage.setItem("theme", "dark");
       return "dark";
