@@ -6,11 +6,6 @@ import { useContext } from "react";
 import { ThemeContext } from "@/context/themeProvider";
 import styled from "@emotion/styled";
 
-const StyledIcon = styled.img`
-  width: 50%;
-  filter: invert(80%) sepia(9%) saturate(214%) hue-rotate(0deg) brightness(103%)
-    contrast(81%);
-`;
 const NavRail = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   return (
