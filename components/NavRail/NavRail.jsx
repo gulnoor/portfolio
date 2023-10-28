@@ -49,7 +49,7 @@ const NavRail = () => {
             />
           </Link>
         </li>
-        <li className={`${styles.nav_li} ${styles.toggle}`}>
+        {/* <li className={`${styles.nav_li} ${styles.toggle}`}>
           <div className={styles.navlink} onClick={toggleTheme}>
             {theme === "light" ? (
               <Image
@@ -69,7 +69,7 @@ const NavRail = () => {
               ></Image>
             )}
           </div>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

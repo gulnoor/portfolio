@@ -59,7 +59,7 @@ const PanelContent = ({ path }) => {
               }}
             >
               {" "}
-              <Image src={play} />
+              <Image alt="play button "src={play} />
             </Button>
           </div>
 
